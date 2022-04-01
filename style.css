@@ -21,7 +21,7 @@
 }
 
 body {
-    background: url(./images/bg-pattern-top.svg) no-repeat 0 -200px, url(./images/bg-pattern-bottom.svg) no-repeat 750px 300px;
+    background: url(./images/bg-pattern-top.svg) no-repeat 0 -200px, url(./images/bg-pattern-bottom.svg) no-repeat 700px 400px;
     background-size: contain;
     background-color: var(--cyan);
     background-attachment: fixed;
