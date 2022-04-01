@@ -2,7 +2,7 @@
 
 This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-- 1 April 2022
+- Creation Date: 2 April 2022
 
 ## Table of contents
 
@@ -28,4 +28,4 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## Date
 
-- 1 April 2022.
+- 2 April 2022.

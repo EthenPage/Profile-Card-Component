@@ -38,7 +38,7 @@ body {
     background-size: 100%;
     border-radius: 15px;
     width: 100%;
-    max-width: 320px;
+    max-width: 375px;
 }
 
 .card__desc {
@@ -103,4 +103,17 @@ p {
 /* p */
 .info__item p {
     font-size: 0.8rem;
+}
+
+/* Smartphones below 375px (portrait) ----------- */
+@media only screen and (max-width : 375px) {
+    .card {
+        max-width: 320px;
+    }
+
+    /* img */
+    .card__img {
+        margin: 80px 50% 30px;
+    }
+
 }
