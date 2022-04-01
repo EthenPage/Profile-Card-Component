@@ -21,7 +21,10 @@
 }
 
 body {
-    background: var(--cyan);
+    background: url(./images/bg-pattern-top.svg) no-repeat 0 -200px, url(./images/bg-pattern-bottom.svg) no-repeat 750px 300px;
+    background-size: contain;
+    background-color: var(--cyan);
+    background-attachment: fixed;
     text-align: center;
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
@@ -103,6 +106,15 @@ p {
 /* p */
 .info__item p {
     font-size: 0.8rem;
+}
+
+/* Smartphones below 375px (portrait) ----------- */
+@media only screen and (max-width : 420px) {
+    body {
+        background: url(./images/bg-pattern-top.svg) no-repeat -150px -200px, url(./images/bg-pattern-bottom.svg) no-repeat 150px 400px;
+        background-size: contain;
+        background-color: var(--cyan);
+    }
 }
 
 /* Smartphones below 375px (portrait) ----------- */

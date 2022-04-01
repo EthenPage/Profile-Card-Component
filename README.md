@@ -8,6 +8,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 - [Screenshot](#screenshot)
 - [Links](#links)
+- [Future Development](#future-development)
 - [Author](#author)
 - [Date](#date)
 
@@ -19,6 +20,10 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 - Solution URL: [Solution]()
 - Live Site URL: [Live](https://ethenpage.github.io/Profile-Card-Component/)
+
+## Future Development
+
+- Work with responsive background.
 
 ## Author
 
