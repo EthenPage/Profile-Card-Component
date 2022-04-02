@@ -29,31 +29,24 @@ body {
     font-weight: 400;
 }
 
-.main{
-    width: 375px;
+.container{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
-} 
-
-.container {
-    padding: 0 10px;
     min-height: 100vh;
-    width: 100%;
-    display: grid;
-    place-items: center;
 }
 
 .card {
-    background: white url(./images/bg-pattern-card.svg) no-repeat;
-    background-size: 100%;
-    border-radius: 15px;
     width: 100%;
     max-width: 375px;
+    background: white url(./images/bg-pattern-card.svg) no-repeat;
+    background-size: 375px 150px;
+    background-position: top center;
+    border-radius: 15px;
+    margin: 0 10px;
 }
 
-.card__desc {
+.card__desc {    
     position: relative;
     margin-bottom: 25px;
 }
@@ -69,22 +62,17 @@ body {
     opacity: 0.3;
 }
 
-.card__info {
+.card__info{
     display: flex;
-    justify-content: space-around;
-    margin: 0 20px;
+    justify-content: space-evenly;
 }
-
 
 /* img */
 .card__img {
-    display: block;
-    margin: 100px 50% 30px;
-    transform: translateX(-50%);
-    border-radius: 70px;
+    margin: 100px auto 30px;
+    border-radius: 50%;
     border: 6px solid white;
 }
-
 
 h1,
 h2 {
@@ -115,4 +103,12 @@ p {
 /* p */
 .info__item p {
     font-size: 0.8rem;
+}
+
+/* Mobile bg adjustment */
+@media only screen and (max-width : 425px) {
+    /* Styles */
+    body{
+        background-position: right 45vw bottom 50vh, left 30vw top 50vh;
+    }
 }
