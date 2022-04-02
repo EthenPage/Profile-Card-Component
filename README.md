@@ -18,7 +18,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## Links
 
-- Solution URL: [Solution](https://www.frontendmentor.io/solutions/profile-card-component-SkuOBkr7c)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/profile-card-component-r1rKaGSXq)
 - Live Site URL: [Live](https://ethenpage.github.io/Profile-Card-Component/)
 
 ## Future Development
